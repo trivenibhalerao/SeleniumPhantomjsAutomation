@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run">
+  <test name="verifyBeneficiaryAdded">
+      <classes>
+      <class name="com.paybank.maven.paybank.beneficiary.AppTest">
+       <methods>
+        <include name="verifyBeneficiaryAddedFailed" />
+      </methods>
+      </class>
+     
+    </classes>
+  </test>
+</suite>
